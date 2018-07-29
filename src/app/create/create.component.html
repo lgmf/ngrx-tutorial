@@ -1,0 +1,7 @@
+<div class="left">
+  <h3>New Tutorial:</h3>
+  <input type="text" placeholder="name" #name>
+  <input type="text" placeholder="url" #url>
+
+  <button (click)="addTutorial(name.value,url.value)">Add a Tutorial</button>
+</div>
