@@ -1,0 +1,16 @@
+li {
+  padding: 15px;
+  background-color: #ccc;
+  display: flex;
+}
+
+li > a {
+  flex: 1;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+li + li {
+  margin-top: 5px;
+}
